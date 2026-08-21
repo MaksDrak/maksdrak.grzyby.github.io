@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="340" fill="#243521"/>
+  <ellipse cx="200" cy="300" rx="230" ry="40" fill="#16201533"/>
+
+  <!-- mushroom -->
+  <g transform="translate(130,140)">
+    <rect x="30" y="66" width="26" height="70" rx="10" fill="#f2e6c9"/>
+    <path d="M0 66 C0 24 86 24 86 66 C86 78 66 64 43 64 C20 64 0 78 0 66Z" fill="#d3922f"/>
+    <path d="M8 58 C8 28 78 28 78 58 C58 46 28 46 8 58Z" fill="#b5602f"/>
+  </g>
+
+  <!-- magnifying glass -->
+  <g transform="translate(200,90)">
+    <circle cx="40" cy="40" r="46" fill="none" stroke="#f6f0e4" stroke-width="10"/>
+    <line x1="74" y1="74" x2="118" y2="118" stroke="#f6f0e4" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="40" cy="40" r="34" fill="#1e2a1e" opacity="0.25"/>
+  </g>
+
+  <!-- small exclamation -->
+  <g transform="translate(224,114)">
+    <rect x="0" y="0" width="10" height="30" rx="5" fill="#b5342f"/>
+    <circle cx="5" cy="42" r="6" fill="#b5342f"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="340" fill="#2c3d29"/>
+  <ellipse cx="200" cy="300" rx="230" ry="40" fill="#16201533"/>
+
+  <!-- red spotted toadstool (danger) -->
+  <g transform="translate(70,120)">
+    <rect x="30" y="70" width="26" height="80" rx="10" fill="#f2e6c9"/>
+    <path d="M0 70 C0 20 86 20 86 70 C86 84 66 68 43 68 C20 68 0 84 0 70Z" fill="#b5342f"/>
+    <circle cx="18" cy="42" r="5" fill="#f6f0e4"/>
+    <circle cx="43" cy="30" r="6.5" fill="#f6f0e4"/>
+    <circle cx="66" cy="44" r="4.5" fill="#f6f0e4"/>
+    <circle cx="43" cy="52" r="4" fill="#f6f0e4"/>
+  </g>
+
+  <!-- warning triangle -->
+  <g transform="translate(220,80)">
+    <path d="M60 0 L120 100 L0 100 Z" fill="#d3922f"/>
+    <path d="M60 20 L104 92 L16 92 Z" fill="#954c22" opacity="0.15"/>
+    <rect x="54" y="36" width="12" height="38" rx="4" fill="#1e2a1e"/>
+    <circle cx="60" cy="84" r="7" fill="#1e2a1e"/>
+  </g>
+
+  <!-- edible mushroom for contrast -->
+  <g transform="translate(230,210)">
+    <rect x="16" y="34" width="16" height="40" rx="6" fill="#f2e6c9"/>
+    <path d="M0 34 C0 8 48 8 48 34 C48 42 37 32 24 32 C11 32 0 42 0 34Z" fill="#b5602f"/>
+  </g>
+</svg>

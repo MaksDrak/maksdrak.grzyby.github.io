@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="340" fill="#243521"/>
+  <circle cx="320" cy="60" r="70" fill="#3f5438" opacity="0.5"/>
+
+  <!-- winding path -->
+  <path d="M40 320 Q140 240 100 190 Q60 140 180 110 Q300 80 260 20" fill="none" stroke="#e9d8ab" stroke-width="22" stroke-linecap="round" opacity="0.85"/>
+  <path d="M40 320 Q140 240 100 190 Q60 140 180 110 Q300 80 260 20" fill="none" stroke="#d3c191" stroke-width="22" stroke-linecap="round" opacity="0.3" stroke-dasharray="2 18"/>
+
+  <!-- trees flanking path -->
+  <g fill="#3f5438">
+    <ellipse cx="70" cy="90" rx="34" ry="46"/>
+    <ellipse cx="330" cy="180" rx="30" ry="42"/>
+    <ellipse cx="60" cy="230" rx="28" ry="38"/>
+    <ellipse cx="350" cy="270" rx="26" ry="34"/>
+  </g>
+
+  <!-- map pin -->
+  <g transform="translate(180,140)">
+    <path d="M30 0 C50 0 62 16 62 34 C62 58 30 92 30 92 C30 92 -2 58 -2 34 C-2 16 10 0 30 0Z" fill="#b5602f"/>
+    <circle cx="30" cy="34" r="14" fill="#f6f0e4"/>
+  </g>
+</svg>

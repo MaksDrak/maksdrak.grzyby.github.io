@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="340" fill="#2c3d29"/>
+  <ellipse cx="200" cy="300" rx="230" ry="40" fill="#16201533"/>
+
+  <!-- steam -->
+  <g stroke="#efe6d3" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.55">
+    <path d="M160 110 Q150 90 165 70 Q178 52 165 30"/>
+    <path d="M200 110 Q190 88 205 66 Q218 46 205 22"/>
+    <path d="M240 110 Q230 90 245 70 Q258 52 245 30"/>
+  </g>
+
+  <!-- bowl -->
+  <g transform="translate(90,150)">
+    <ellipse cx="110" cy="20" rx="110" ry="26" fill="#8a5638"/>
+    <path d="M0 20 Q0 90 110 90 Q220 90 220 20 Z" fill="#f2e6c9"/>
+    <ellipse cx="110" cy="20" rx="86" ry="16" fill="#b5602f"/>
+    <ellipse cx="110" cy="20" rx="86" ry="16" fill="#954c22" opacity="0.3"/>
+  </g>
+
+  <!-- floating mushroom slices -->
+  <circle cx="150" cy="168" r="9" fill="#e9d8ab"/>
+  <circle cx="205" cy="160" r="10" fill="#e9d8ab"/>
+  <circle cx="250" cy="172" r="8" fill="#e9d8ab"/>
+
+  <!-- spoon -->
+  <g transform="translate(280,120) rotate(20)">
+    <rect x="0" y="0" width="8" height="90" rx="4" fill="#5b4330"/>
+    <ellipse cx="4" cy="-6" rx="16" ry="20" fill="#5b4330"/>
+  </g>
+</svg>

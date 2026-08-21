@@ -1,0 +1,50 @@
+<svg viewBox="0 0 600 460" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="460" fill="#243521"/>
+  <circle cx="480" cy="90" r="120" fill="#3f5438" opacity="0.45"/>
+  <ellipse cx="300" cy="430" rx="320" ry="40" fill="#16201540"/>
+
+  <!-- back trees -->
+  <g fill="#3f5438">
+    <ellipse cx="70" cy="180" rx="46" ry="64"/>
+    <ellipse cx="130" cy="150" rx="34" ry="50"/>
+    <ellipse cx="520" cy="200" rx="42" ry="58"/>
+    <ellipse cx="470" cy="170" rx="30" ry="46"/>
+  </g>
+
+  <!-- ground mound -->
+  <ellipse cx="300" cy="420" rx="260" ry="50" fill="#2c3d29"/>
+
+  <!-- person crouching with basket -->
+  <g transform="translate(230,230)">
+    <!-- legs -->
+    <path d="M40 150 Q30 190 20 220 L40 220 Q52 190 58 150 Z" fill="#5b4330"/>
+    <path d="M70 150 Q78 190 86 220 L106 220 Q98 188 90 150 Z" fill="#5b4330"/>
+    <!-- torso -->
+    <path d="M20 70 Q10 120 40 150 Q70 168 100 148 Q120 118 108 68 Q64 48 20 70Z" fill="#b5602f"/>
+    <!-- head -->
+    <circle cx="60" cy="40" r="26" fill="#f2e6c9"/>
+    <path d="M32 34 Q60 4 88 34 Q90 14 60 8 Q30 14 32 34Z" fill="#5b4330"/>
+    <!-- arm reaching down -->
+    <path d="M28 90 Q0 108 -10 140" stroke="#b5602f" stroke-width="16" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- basket near hand -->
+  <g transform="translate(190,356)">
+    <path d="M0 20 L86 20 L76 58 Q43 66 10 58 Z" fill="#8a5638"/>
+    <path d="M8 20 Q43 -14 78 20" fill="none" stroke="#5b4330" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- scattered mushrooms -->
+  <g transform="translate(120,380)">
+    <rect x="6" y="14" width="8" height="18" rx="4" fill="#f2e6c9"/>
+    <path d="M0 14 C0 2 20 2 20 14 C20 18 15 12 10 12 C5 12 0 18 0 14Z" fill="#d3922f"/>
+  </g>
+  <g transform="translate(400,390)">
+    <rect x="6" y="12" width="7" height="16" rx="4" fill="#f2e6c9"/>
+    <path d="M0 12 C0 1 18 1 18 12 C18 16 13 11 9 11 C5 11 0 16 0 12Z" fill="#b5602f"/>
+  </g>
+  <g transform="translate(440,360)">
+    <rect x="8" y="18" width="10" height="22" rx="4" fill="#f2e6c9"/>
+    <path d="M0 18 C0 4 26 4 26 18 C26 24 20 16 13 16 C6 16 0 24 0 18Z" fill="#954c22"/>
+  </g>
+</svg>

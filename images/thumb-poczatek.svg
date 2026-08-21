@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="340" fill="#2c3d29"/>
+  <circle cx="330" cy="50" r="80" fill="#3f5438" opacity="0.6"/>
+  <ellipse cx="200" cy="300" rx="220" ry="40" fill="#1e2a1e" opacity="0.5"/>
+
+  <!-- basket -->
+  <g transform="translate(120,190)">
+    <path d="M0 40 L160 40 L142 110 Q80 122 18 110 Z" fill="#8a5638"/>
+    <path d="M0 40 L160 40 L154 58 L6 58 Z" fill="#a8724c"/>
+    <path d="M20 40 Q80 -22 140 40" fill="none" stroke="#5b4330" stroke-width="8" stroke-linecap="round"/>
+    <g stroke="#6a3d2a" stroke-width="2" opacity="0.5">
+      <path d="M14 62 L146 62"/>
+      <path d="M18 78 L142 78"/>
+      <path d="M22 94 L136 94"/>
+    </g>
+  </g>
+
+  <!-- mushrooms poking out of basket -->
+  <g transform="translate(140,150)">
+    <rect x="14" y="30" width="14" height="34" rx="6" fill="#f2e6c9"/>
+    <path d="M0 30 C0 4 42 4 42 30 C42 38 32 28 21 28 C10 28 0 38 0 30Z" fill="#b5602f"/>
+  </g>
+  <g transform="translate(190,140)">
+    <rect x="12" y="34" width="13" height="38" rx="6" fill="#f2e6c9"/>
+    <path d="M0 34 C0 6 38 6 38 34 C38 42 29 32 19 32 C9 32 0 42 0 34Z" fill="#d3922f"/>
+  </g>
+  <g transform="translate(232,158)">
+    <rect x="10" y="28" width="12" height="30" rx="6" fill="#f2e6c9"/>
+    <path d="M0 28 C0 4 34 4 34 28 C34 34 26 26 17 26 C8 26 0 34 0 28Z" fill="#954c22"/>
+  </g>
+
+  <!-- little sun -->
+  <circle cx="335" cy="45" r="22" fill="#d3922f" opacity="0.85"/>
+</svg>

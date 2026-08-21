@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="340" fill="#243521"/>
+  <ellipse cx="200" cy="300" rx="230" ry="40" fill="#16201533"/>
+  <circle cx="90" cy="70" r="70" fill="#3f5438" opacity="0.5"/>
+
+  <!-- big boletus, centered -->
+  <g transform="translate(115,90)">
+    <rect x="58" y="130" width="54" height="130" rx="22" fill="#f2e6c9"/>
+    <rect x="58" y="130" width="54" height="130" rx="22" fill="#e9d8ab" opacity="0.5"/>
+    <path d="M0 130 C0 40 170 40 170 130 C170 158 132 122 85 122 C38 122 0 158 0 130Z" fill="#8a5638"/>
+    <path d="M10 116 C10 46 160 46 160 116 C120 92 50 92 10 116Z" fill="#b5602f"/>
+    <path d="M14 108 C14 52 156 52 156 108 C118 88 52 88 14 108Z" fill="#954c22" opacity="0.7"/>
+  </g>
+
+  <!-- small mushrooms flanking -->
+  <g transform="translate(40,220)">
+    <rect x="8" y="20" width="10" height="24" rx="4" fill="#f2e6c9"/>
+    <path d="M0 20 C0 4 26 4 26 20 C26 26 19 18 13 18 C7 18 0 26 0 20Z" fill="#d3922f"/>
+  </g>
+  <g transform="translate(330,236)">
+    <rect x="6" y="16" width="9" height="20" rx="4" fill="#f2e6c9"/>
+    <path d="M0 16 C0 2 22 2 22 16 C22 21 16 15 11 15 C6 15 0 21 0 16Z" fill="#b5602f"/>
+  </g>
+
+  <g stroke="#6a7f4e" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7">
+    <path d="M330 300 q6 -20 0 -32"/>
+    <path d="M340 300 q10 -16 4 -28"/>
+  </g>
+</svg>
