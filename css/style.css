@@ -205,18 +205,52 @@ p { margin: 0 0 1em; }
 
 .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
 
-.hero-art { position: relative; }
-.hero-art svg { width: 100%; height: auto; max-width: 420px; margin: 0 auto; display: block; }
-.hero-art img {
+.hero-art {
+  position: relative;
   width: 100%;
-  max-width: 440px;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  display: block;
+  max-width: 460px;
+  aspect-ratio: 1 / 1;
   margin: 0 auto;
-  border-radius: var(--radius);
-  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.35);
-  border: 1px solid rgba(246, 240, 228, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-art svg { width: 100%; height: auto; max-width: 420px; margin: 0 auto; display: block; }
+
+.hero-art::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: repeating-radial-gradient(
+    circle at center,
+    #a8bd88 0,
+    #a8bd88 9%,
+    #7c9463 9%,
+    #7c9463 18%,
+    #5c7448 18%,
+    #5c7448 27%,
+    #435a34 27%,
+    #435a34 36%,
+    #2c3d29 36%,
+    #2c3d29 48%,
+    #1e2a1e 48%,
+    #1e2a1e 62%,
+    #16201a 62%,
+    #16201a 100%
+  );
+}
+
+.hero-art img {
+  position: relative;
+  z-index: 1;
+  width: 68%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  -webkit-mask-image: radial-gradient(circle, #000 58%, transparent 88%);
+  mask-image: radial-gradient(circle, #000 58%, transparent 88%);
 }
 
 .hero::after {
