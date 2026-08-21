@@ -723,11 +723,18 @@ p { margin: 0 0 1em; }
 .about-grid .art {
   position: sticky;
   top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.about-grid .art img {
+  width: 100%;
+  height: auto;
+  display: block;
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow-card);
 }
-.about-grid .art img { width: 100%; height: auto; display: block; }
 
 .value-grid {
   display: grid;
