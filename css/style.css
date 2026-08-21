@@ -744,6 +744,7 @@ p { margin: 0 0 1em; }
 .value-card .icon { font-size: 26px; margin-bottom: 12px; display: block; }
 .value-card h4 { font-size: 17px; margin-bottom: 8px; text-transform: none; letter-spacing: 0; color: var(--brown-dark); }
 .value-card p { font-size: 14.5px; color: var(--ink-soft); margin: 0; }
+.value-card a { font-weight: 700; }
 
 .contact-grid {
   max-width: 640px;
