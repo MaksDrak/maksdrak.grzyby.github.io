@@ -169,7 +169,7 @@ p { margin: 0 0 1em; }
   padding-top: 78px;
   padding-bottom: 96px;
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 0.95fr 1.05fr;
   gap: 40px;
   align-items: center;
 }
@@ -208,7 +208,7 @@ p { margin: 0 0 1em; }
 .hero-art {
   position: relative;
   width: 100%;
-  max-width: 460px;
+  max-width: 600px;
   aspect-ratio: 1 / 1;
   margin: 0 auto;
   display: flex;
@@ -244,7 +244,7 @@ p { margin: 0 0 1em; }
 .hero-art img {
   position: relative;
   z-index: 1;
-  width: 68%;
+  width: 76%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
